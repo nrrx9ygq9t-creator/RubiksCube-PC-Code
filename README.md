@@ -35,8 +35,6 @@ py -m pip install pillow
 
 本程序的魔方识别功能是使用openCV库实现的，识别的原理是通过摄像头拍摄魔方的图像，然后裁切出魔方的六个面，并对每个面进行RGB颜色识别存入vision_params.py中。随后自动输入到GUI中，最后调用twophase算法求解。
 
-一个魔方由其魔方定义字符串定义。一个已解决的魔方的字符串为 'UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB'。   
-
 输出的解法是一个字符串，格式为用空格分隔的旋转步骤。例如，'U1 R2 U3' 表示顺时针旋转GUI中显示的U面90度、顺时针旋转GUI中显示的R面180度、顺时针旋转GUI中显示的U面270度。
 
 对于一些具体的运算算法细节，可以访问 https://github.com/hkociemba/RubiksCube-TwophaseSolver 去了解更多。
