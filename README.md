@@ -37,6 +37,9 @@ py -m pip install pillow
 
 输出的解法是一个字符串，格式为用空格分隔的旋转步骤。例如，'U1 R2 U3' 表示顺时针旋转GUI中显示的U面90度、顺时针旋转GUI中显示的R面180度、顺时针旋转GUI中显示的U面270度。
 
-对于一些具体的运算算法细节，可以访问 https://github.com/hkociemba/RubiksCube-TwophaseSolver 去了解更多。
+对于一些具体的运算算法细节，可以访问hkociemba的原程序[RubiksCube-TwophaseSolver](https://github.com/hkociemba/RubiksCube-TwophaseSolver) 去了解更多。
 ![](gui_client.png "")
+## 改动之处
+由于此程序的目的只是应用于我们的魔方机器人项目，因此去除了hkociemba的原程序中的client_gui.py、vison2.py等文件，也去除了client_gui2.py中修改HSV修改滑块，将图像捕捉集成到了gui2中，再使用group_1-4来处理图像，用RGB代替了HSV，并在GUI中添加了按钮来一次性完成识别、求解和输出的流程。除此之外，主要的算法部分并没有修改，仍然使用hkociemba原程序中的twophase算法来求解魔方。
+
 ***
