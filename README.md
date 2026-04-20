@@ -14,7 +14,7 @@ https://github.com/nrrx9ygq9t-creator/RubiksCube-PC-Code
 
 低于 Python 3.7 的版本未测试过，可能无法正常运行。
 
-此外，由于此程序调用了 OpenCV、NumPy和Pillow，你还需要安装一些依赖包：
+此外，由于此程序调用了 OpenCV、NumPy和Pillow，你还需要安装这些依赖包：
 ```bash
 py -m pip install opencv-python
 ```
