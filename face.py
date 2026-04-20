@@ -57,7 +57,7 @@ class FaceCube:
             return 'Error: Cube definition string ' + s + ' does not contain exactly 9 facelets of each color.'
 
     def to_string(self):
-        """给出面片立方体的字符串表示形式。"""
+        """Give a string representation of the facelet cube."""
         s = ''
         for i in range(54):
             if self.f[i] == Color.U:

@@ -2,7 +2,7 @@
 ## 概述
 本项目为解魔方机器人的上位机程序，从hkociemba的[RubiksCube-TwophaseSolver](https://github.com/hkociemba/RubiksCube-TwophaseSolver)程序修改而来。
 
-本人的Python水平有限，无法保证修改后代码的完美性、稳定性和高效性。如果你的目标只是简单地解魔方并探索其模式，[Cube Explorer](http://kociemba.org/cube.htm) 可能是更好的选择。如果你希望深入理解两阶段算法的复杂性，或者你正在进行一个构建能够实现近乎完美的魔方机器人项目，那么可以尝试使用并修改本项目或者修改hkociemba的原始项目。
+本人的Python水平有限且项目时间紧迫，无法保证修改后代码的完美性、稳定性和高效性，或许读起来会有些混乱。如果你的目标只是简单地解魔方并探索其模式，[Cube Explorer](http://kociemba.org/cube.htm) 可能是更好的选择。如果你希望深入理解两阶段算法的复杂性，或者你正在进行一个构建能够实现近乎完美的魔方机器人项目，那么可以尝试使用并修改本项目或者修改hkociemba的原始项目。
 ## 使用方法
 
 此软件未上传到PyPI，因此无法通过 pip 直接安装。你需要从 GitHub 上下载该项目：
